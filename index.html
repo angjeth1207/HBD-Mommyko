@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Mahal,</strong>
+                        <p>
+                            Una una sa lahat is Happy Birthday Mahal ko 😇😇😇😇😇😇😇😇 <br>
+                            Wish ko for you is to stay healthy, be strong, chase your dreams, love your family, and have faith always in God. <br><br>
+                            I Love you sooo sooo much Mahal ko,
+                            It is a blessing to have you in my life. <br>
+                            I love the way you are and how genuine you are. 😇😇😇😇😇 No one can compare with you Mahal ko. 😇😇😇😇😇 <br><br>
+                            Happy Birthday Mahal and Magkasama na us Forever and Ever 🤗🤗🤗🤗🤗🤗🤗 <br>
+                            I Love you soooo soooo much always and always.
+                        </p>
+                        <p>Love, <br>Red</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="index1.html" class="bottom-link">Flowers for You</a>
+    </footer>
+
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
